@@ -12,4 +12,5 @@ Issues
 ======
 
 Discovered a bug? Please create an issue here on GitHub!
+
 [https://github.com/ash-developer/ng-typeahead/issues](https://github.com/ash-developer/ng-typeahead/issues)
