@@ -1,0 +1,28 @@
+{
+  "name": "ng-typeahead",
+  "main": "ng-typeahead.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ash-developer/ng-typeahead",
+  "authors": [
+    "Andrei Shevel <ash.developer@yandex.ru>"
+  ],
+  "description": "Angular.js directive for Twitter Typeahead library",
+  "keywords": [
+    "typeahead",
+    "angular",
+    "twitter",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.26",
+    "typeahead.js": "~0.10.5"
+  }
+}
