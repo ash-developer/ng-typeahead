@@ -19,8 +19,8 @@ angular.module('ash', []).directive("ngTypeahead", function () {
         if ($scope.isChanged) {
           $scope.isChanged = false;
         } else {
-          var key = $scope.datasets.displayKey ? displayKey : 'value';
-          if (value == ngModel.$modelValue[key]) {
+          var key = $scope.datasets.displayKey ? $scope.datasets.displayKey : 'value';
+          if (ngModel.$modelValue && value == ngModel.$modelValue[key]) {
             value = ngModel.$modelValue;
           } else {
             value = undefined;
